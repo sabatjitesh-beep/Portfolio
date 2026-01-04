@@ -127,145 +127,7 @@ html{
     }
 }
 
-/* Mobile Responsive */
 
-@media screen and (max-width: 700px){
-
-
-    
-   
-    header{
-        position:fixed;
-        height: 50px;
-        width: 100%;
-        
-    }
-
-     header ul li{
-      display: none
-    }
-      header ul{
-      display: none
-    }
-        
-    
-
-    header .box-icons{
-        display: none;
-    }
-
-    header h1{
-        font-size: 25px;
-    }
-
-    .blackhole-box video{
-        margin-top: -20%;
-    }
-
-    .hero{
-        flex-direction: column;
-    }
-
-    .autoBlur{
-        animation: none;
-    }
-
-    .hero-info{
-        bottom: 5%;
-    }
-
-    .scroll-down{
-        bottom: 5%;
-        
-    }
-
-    .hero-info h1{
-        line-height: 50px;
-    }
-
-    .hero-vid-box{
-        height: 200px;
-        top: 5%;
-        right: 5%;
-    }
-
-    .card video{
-        width: 100px;
-    }
-
-    .my-projects{
-        margin-bottom: 600px;
-    }
-
-    .project-card{
-        flex-direction: column;
-        margin-left: 25%;
-        gap: 30px;
-    }
-
-    .project-info{
-        width: 85%;
-    }
-
-    .project-info h1{
-        white-space: nowrap;
-    }
-
-    .project-info p{
-        max-width: 300px;
-    }
-
-    .designer{
-        top: 15%;
-        left: 18%;
-    }
-
-    .coder{
-        top: 50%;
-        left: 18%;
-    }
-
-    .skills-box h1{
-        margin-bottom: 0;
-        margin-top: 70px;
-    }
-
-    .slider{
-        bottom: 0;
-    }
-
-    .slider img{
-        width: 60%;
-    }
-
-    .contact-section{
-        flex-direction: column;
-        margin-top: 100px;
-        margin-bottom: 50px;
-    }
-
-    .contact-section .section-title{
-        top: -40px;
-        left: 25%;
-    }
-
-    footer h1{
-        font-size: 17px;
-    }
-
-    .project-vidbox{
-        min-width: 200px;
-    }
-
-    header .menu-icon{
-        display: block;
-        
-        
-
-    }
-
-    
-}
 
 
 
@@ -319,6 +181,9 @@ header ul a{
     color: white;
     margin: 0 10px;
     font-weight: 700;
+}
+header .menu-icon{
+    display: none;
 }
 .box-icons {
     display: flex;
@@ -1159,3 +1024,156 @@ footer h1 {
     }
 }
 
+/* Mobile Responsive */
+
+@media screen and (max-width: 700px) {
+
+    header {
+        position: fixed;
+        height: 50px;
+        width: 90%;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header .box-icons {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    .blackhole-box video {
+        margin-top: -15%;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .autoBlur {
+        animation: none;
+    }
+
+    .hero-info {
+        bottom: 10%;
+    }
+
+    .scroll-down {
+        bottom: 5%;
+    }
+
+    .hero-info h1 {
+        line-height: 60px;
+        font-size: 50px;
+    }
+    .hero-info p {
+        max-width: 100%;
+        font-size: 21px;
+    }
+
+    .hero-vid-box {
+        height: 500px;
+        top: 2%;
+        right: 5%;
+    }
+
+    .hero-vid-box video {
+        height: 100%;
+    }
+
+    .info-cards {
+        grid-template-columns: auto;
+    }
+
+    .card video {
+        width: 100px;
+    }
+
+    .my-projects {
+        margin-bottom: 600px;
+    }
+
+    .project-card {
+        flex-direction: column;
+        margin-left: 25%;
+        gap: 30px;
+    }
+
+    .project-info {
+        width: 85%;
+    }
+
+    .project-info h1 {
+        white-space: nowrap;
+    }
+
+    .project-info p {
+        max-width: 300px;
+    }
+
+    .designer {
+        top: 30%;
+        left: 18%;
+    }
+
+    .coder {
+        top: 65%;
+        left: 18%;
+    }
+
+    .skills-box h1 {
+        margin-bottom: 20px;
+        margin-top: 70px;
+    }
+
+    .slider {
+        top: 100%;
+        
+    }
+
+    .slider img {
+        width: 60%;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        top: 10%;
+        margin-top: 300px;
+        margin-bottom: 50px;
+    }
+
+    .contact-section .section-title {
+        top: -40px;
+        left: 25%;
+    }
+
+    .contact-section .social-box {
+        flex-direction: row;
+        top: 20%;
+        left: 35%;
+    }
+    .contact-section .contact-box {
+        top: 40%;
+        left: 20%;
+    }
+
+    footer h1 {
+        font-size: 17px;
+    }
+
+    .project-vidbox {
+        min-width: 200px;
+    }
+
+    header .menu-icon {
+        display: block;
+       
+    }
+
+   
+
+}
